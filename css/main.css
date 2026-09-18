@@ -1,0 +1,113 @@
+
+    /* TABLA GENERAL */
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        text-align: center;
+        font-family: Arial, sans-serif;
+    }
+
+    th, td {
+        border: 1px solid black;
+        padding: 8px;
+    }
+
+    /* CABECERA */
+    th {
+        background-color: white;
+        font-size: 20px;
+        font-weight: normal;
+        height: 45px;
+    }
+
+    /* COLUMNA DE HORAS */
+    td:first-child {
+        background-color: white;
+        font-weight: normal;
+    }
+
+
+    /* 0485 - MOD OPT PROGRA */
+
+    tr:nth-child(2) td:nth-child(2),
+    tr:nth-child(2) td:nth-child(3),
+    tr:nth-child(3) td:nth-child(2),
+    tr:nth-child(3) td:nth-child(3),
+    tr:nth-child(4) td:nth-child(2),
+    tr:nth-child(4) td:nth-child(3),
+    tr:nth-child(6) td:nth-child(4) {
+        background-color: #f4cccc;
+    }
+
+
+    /* 0483 - SISTEMES */
+
+    tr:nth-child(2) td:nth-child(4),
+    tr:nth-child(3) td:nth-child(4),
+    tr:nth-child(4) td:nth-child(4),
+    tr:nth-child(7) td:nth-child(2) {
+        background-color: #ffff99;
+    }
+
+
+    /* 1709 - ROBERT  */
+
+    tr:nth-child(2) td:nth-child(5),
+    tr:nth-child(3) td:nth-child(5),
+    tr:nth-child(4) td:nth-child(5),
+    tr:nth-child(8) td:nth-child(5) {
+        background-color: #b7dee8;
+    }
+
+
+    /* 0491 - ERP */
+
+    tr:nth-child(2) td:nth-child(6),
+    tr:nth-child(3) td:nth-child(6),
+    tr:nth-child(7) td:nth-child(6) {
+        background-color: #ccff99;
+    }
+
+
+    /* 0373 / 0179 - WEB / ANGLÈS */
+
+    tr:nth-child(3) td:nth-child(6),
+    tr:nth-child(4) td:nth-child(6),
+    tr:nth-child(6) td:nth-child(3),
+    tr:nth-child(6) td:nth-child(6) {
+        background-color: #80c4df;
+    }
+
+
+    /* 0484 - BBDD   */
+
+    tr:nth-child(4) td:nth-child(5),
+    tr:nth-child(6) td:nth-child(5),
+    tr:nth-child(7) td:nth-child(3),
+    tr:nth-child(7) td:nth-child(5),
+    tr:nth-child(8) td:nth-child(3) {
+        background-color: #b92ec6;
+    }
+
+
+    /* TUTORIA */
+
+    tr:nth-child(6) td:nth-child(2) {
+        background-color: #66e6e6;
+    }
+
+
+    /* 1710 - EIE */
+
+    tr:nth-child(7) td:nth-child(4),
+    tr:nth-child(8) td:nth-child(6) {
+        background-color: #c6e6c6;
+    }
+
+
+    /* SEPARADOR 11:00  */
+
+    tr:nth-child(5) td {
+        height: 20px;
+        background-color: white;
+    }
