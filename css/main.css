@@ -1,113 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e8f1f8;
+    margin: 0;
+    padding: 50px;
+    text-align: center;
+}
 
-    /* TABLA GENERAL */
-    table {
-        width: 100%;
-        border-collapse: collapse;
-        text-align: center;
-        font-family: Arial, sans-serif;
-    }
+h1 {
+    color: #1f4e79;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
 
-    th, td {
-        border: 1px solid black;
-        padding: 8px;
-    }
+ul {
+    list-style: none;
+    padding: 0;
+    width: 500px;
+    margin: auto;
+}
 
-    /* CABECERA */
-    th {
-        background-color: white;
-        font-size: 20px;
-        font-weight: normal;
-        height: 45px;
-    }
+li {
+    margin: 15px;
+}
 
-    /* COLUMNA DE HORAS */
-    td:first-child {
-        background-color: white;
-        font-weight: normal;
-    }
+a {
+    display: block;
+    background-color: #3498db;
+    color: white;
+    padding: 18px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 20px;
+}
 
-
-    /* 0485 - MOD OPT PROGRA */
-
-    tr:nth-child(2) td:nth-child(2),
-    tr:nth-child(2) td:nth-child(3),
-    tr:nth-child(3) td:nth-child(2),
-    tr:nth-child(3) td:nth-child(3),
-    tr:nth-child(4) td:nth-child(2),
-    tr:nth-child(4) td:nth-child(3),
-    tr:nth-child(6) td:nth-child(4) {
-        background-color: #f4cccc;
-    }
-
-
-    /* 0483 - SISTEMES */
-
-    tr:nth-child(2) td:nth-child(4),
-    tr:nth-child(3) td:nth-child(4),
-    tr:nth-child(4) td:nth-child(4),
-    tr:nth-child(7) td:nth-child(2) {
-        background-color: #ffff99;
-    }
-
-
-    /* 1709 - ROBERT  */
-
-    tr:nth-child(2) td:nth-child(5),
-    tr:nth-child(3) td:nth-child(5),
-    tr:nth-child(4) td:nth-child(5),
-    tr:nth-child(8) td:nth-child(5) {
-        background-color: #b7dee8;
-    }
-
-
-    /* 0491 - ERP */
-
-    tr:nth-child(2) td:nth-child(6),
-    tr:nth-child(3) td:nth-child(6),
-    tr:nth-child(7) td:nth-child(6) {
-        background-color: #ccff99;
-    }
-
-
-    /* 0373 / 0179 - WEB / ANGLÈS */
-
-    tr:nth-child(3) td:nth-child(6),
-    tr:nth-child(4) td:nth-child(6),
-    tr:nth-child(6) td:nth-child(3),
-    tr:nth-child(6) td:nth-child(6) {
-        background-color: #80c4df;
-    }
-
-
-    /* 0484 - BBDD   */
-
-    tr:nth-child(4) td:nth-child(5),
-    tr:nth-child(6) td:nth-child(5),
-    tr:nth-child(7) td:nth-child(3),
-    tr:nth-child(7) td:nth-child(5),
-    tr:nth-child(8) td:nth-child(3) {
-        background-color: #b92ec6;
-    }
-
-
-    /* TUTORIA */
-
-    tr:nth-child(6) td:nth-child(2) {
-        background-color: #66e6e6;
-    }
-
-
-    /* 1710 - EIE */
-
-    tr:nth-child(7) td:nth-child(4),
-    tr:nth-child(8) td:nth-child(6) {
-        background-color: #c6e6c6;
-    }
-
-
-    /* SEPARADOR 11:00  */
-
-    tr:nth-child(5) td {
-        height: 20px;
-        background-color: white;
-    }
+a:hover {
+    background-color: #217dbb;
+}
